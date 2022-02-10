@@ -3,10 +3,18 @@
 
 ## Lessons ##
 
-### Lesson 1: scripting ###
+
+
+
+### Lesson 1: Python Basics 1 
+Manday 21/02 08.00-10.00
+
+<!-- IM -->
 
 before class read:
 https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.1-morning.md
+
+
 and do some simple exercise?
 
 1) Introduction to cloud computing with UCloud
@@ -28,44 +36,73 @@ cloud computing (ephemeral persistence), CLI/GUI, unix shell/VSCode
 * statement vs expression
 * data types (built-in)
 
+(nested dict)
+<!-- Error messages -->
+
+### Lesson 2: Python Basic 2
+Manday 28/02 08.00-10.00
+
+<!-- Lasse -->
+flow control
+functions
+Exercises? 
+(nested dict)
+
+### Lesson 3: Modular Code development
+Manday 07/03 08.00-10.00
+
+<!-- Lasse -->
+<!-- IM kan ikke være der -->
+
+create a module
+<!-- import i R -->
+modules: os, time, numpy (pandas)
+virtual environments (step by step guide)
+
+<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt -->
 
 
-### 0. Lesson 1: scripting ###
 
-cloud computing (ephemeral persistence), CLI/GUI, unix shell/VSCode
+### Lesson 4: Object-Oriented Programming
+Manday 14/03 08.00-10.00
 
-* statement vs expression
-* data types (built-in)
-
-### 1. Lesson 2: modular code development
-
-(virtual) environments, modules,
-
-* 2d vs nd
-
-### 2. Lesson 3: OOP
-
+<!-- IM -->
 OOP design and implementation
 
-* UML  
-### 3. Lesson 4: projects and automated testing
+* UML
+<!-- * Agent-based models -->
+
+
+### Lesson 5: Projects and Iterative development and Projects
+Manday 21/03 08.00-10.00
+
+<!-- kenneth -->
+* iterative development
+
 
 defensive design, debugging
 
 * assertion
-* iterative development
-
-### 4. Lesson 5: collaborative distributed version control
 
 
+### Lesson 6: collaborative distributed version control
+Manday 28/03 08.00-10.00
+
+<!-- kenneth -->
 * git
 * project templates
 * repositories
 
 
-### Missing topics ###
+
+### Missing topics
 
 * data structures
+* 2d vs nd
+* code style
+  Automated testing
 
+## Literature
+https://python.astrotech.io/design-patterns/uml/class-diagram.html
 
-## Literature ##
+https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.1-morning.md
