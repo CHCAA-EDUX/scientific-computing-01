@@ -1,7 +1,7 @@
-# Curriculum - Scientific Computing 01 #
+# Curriculum - Scientific Computing 01
 
 
-## Lessons ##
+## Lessons
 
 
 
