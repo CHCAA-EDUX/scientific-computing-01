@@ -9,7 +9,7 @@ cloud computing (ephemeral persistence), CLI/GUI, unix shell/VSCode
 * statement vs expression
 * data types (built-in)
 
-### 1. Lesson 2: modular programming and data structures
+### 1. Lesson 2: modular code development
 
 (virtual) environments, modules,
 
@@ -20,17 +20,24 @@ cloud computing (ephemeral persistence), CLI/GUI, unix shell/VSCode
 OOP design and implementation
 
 * UML  
-### 3. Lesson 4: Projects
+### 3. Lesson 4: projects and automated testing
 
 defensive design, debugging
 
 * assertion
 * iterative development
 
-### 4. Lesson 5: Repositories and Version Control
+### 4. Lesson 5: collaborative distributed version control
 
 
+* git
 * project templates
+* repositories
+
+
+### Missing topics ###
+
+* data structures
 
 
 ## Literature ##
