@@ -41,7 +41,7 @@ With version control, none of these are needed anymore (or have much simpler ans
 # What is a Git repository?
 Git is a version control system: can record/save snapshots and track the content of a folder as it changes over time.
 Every time we commit a snapshot, Git records a snapshot of the entire project, saves it, and assigns it a version.
-These snapshots are kept inside a sub-folder called `.git` (typically a hidden folder). # Is the repository part of the working directory? E.g. if I have a project with a .git folder, is the repo just the .git folder, or the entire project?
+These snapshots are kept inside a sub-folder called `.git` (typically a hidden folder).
 
 If we remove `.git`, we remove the repository and history (but keep the working directory). 
 `.git` uses relative paths - you can move the whole thing somewhere else and it will still work
