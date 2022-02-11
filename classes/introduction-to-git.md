@@ -41,9 +41,9 @@ With version control, none of these are needed anymore (or have much simpler ans
 # What is a Git repository?
 Git is a version control system: can record/save snapshots and track the content of a folder as it changes over time.
 Every time we commit a snapshot, Git records a snapshot of the entire project, saves it, and assigns it a version.
-These snapshots are kept inside a sub-folder called `.git` (typically a hidden folder).
+These snapshots are kept inside a sub-folder called `.git` (typically a hidden folder). # Is the repository part of the working directory? E.g. if I have a project with a .git folder, is the repo just the .git folder, or the entire project?
 
-If we remove `.git`, we remove the repository and history (but keep the working directory).
+If we remove `.git`, we remove the repository and history (but keep the working directory). 
 `.git` uses relative paths - you can move the whole thing somewhere else and it will still work
 Git doesn’t do anything unless you ask it to (it does not record anything automatically).
 Multiple interfaces to Git exist (command line, graphical interfaces, web interfaces).
@@ -58,7 +58,7 @@ We will learn how to initialize a Git repository, how to track changes, and how 
 
 This example is inspired by Byron Smith. The motivation for taking a cooking recipe instead of a program is that everybody can relate to cooking but not everybody may be able to relate to a program written in e.g. Python or another language.
 
-> **Note**: This is a type along to please open your terminal and follow along. If you can't get it set up on your own computer do it on UCloud
+> **Note**: This is a type along to please open your terminal and follow along. If you can't get it set up on your own computer do it on UCloud.
 
 One of the basic principles of Git is that it is easy to create repositories:
 
@@ -124,7 +124,9 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-The two files are untracked in the repository (directory). You want to **add the files** to the list of files tracked by Git. Git does not track any files automatically and you need make a conscious decision to add a file. Let’s do what Git hints at and add the files:
+The two files are untracked in the repository (directory). You want to **add the files** to the list of files tracked by Git. Git does not track any files automatically and you need make a conscious decision to add a file. This is essential - when creating a snapshot (a commit), only the files that are tracked (staged) will be part of the snapshot. 
+
+Let’s do what Git hints at and stage the files:
 
 ```console
 $ git add ingredients.txt
@@ -144,7 +146,7 @@ Changes to be committed:
 
 Now this change is staged and ready to be committed.
 
-Let us now commit the change to the repository:
+Let us now make a snapshot (commit the change) to the repository:
 
 ```console
 $ git commit -m "adding ingredients and instructions"
@@ -155,7 +157,7 @@ $ git commit -m "adding ingredients and instructions"
  create mode 100644 instructions.txt
 ```
 
-Right after we query the status to get this useful command into our muscle memory:
+Right after, we query the status to get this useful command into our muscle memory:
 
 ```
 $ git status
@@ -180,7 +182,7 @@ You should see a very long help page as the tool is very versatile (press q to q
   $ git diff
   ```
 
-  You will see (can you identify in there the two added lines?):
+  You will see the following. Can you identify in the two added lines?:
 
   ```diff
   diff --git a/ingredients.txt b/ingredients.txt
@@ -203,7 +205,7 @@ You should see a very long help page as the tool is very versatile (press q to q
   +* enjoy!
   ```
 
-  Now first stage and commit each change separately (what happens when we leave out the `-m` flag?):
+  Now first stage, then commit each change separately (what happens when we leave out the `-m` flag?):
 
   ```console
   $ git add ingredients.txt
@@ -216,7 +218,8 @@ You should see a very long help page as the tool is very versatile (press q to q
   your commit message. This message will be associated and stored with the
   changes you made. This message is your chance to explain what you've done and
   convince others (and your future self) that the changes you made were
-  justified.  Write a message and save and close the file.
+  justified. In the case of bugs, it also helps you track down where they occurred. 
+  Write a message and save and close the file.
 
   This will most likely open up Nano (unless you have set another editor): You can "insert using by pressing `I` then write your message to to save and exit the editor press `esc` and write `:wq` which stands for write quit.
 
@@ -231,7 +234,7 @@ You should see a very long help page as the tool is very versatile (press q to q
 
 ## Writing useful commit messages
 
-Using `git log --oneline` we understand that the first line of the commit message is very important.
+When using `git log --oneline`, we see that the first line of the commit message is very important.
 
 Good example:
 
@@ -247,13 +250,13 @@ Convention: **one line summarizing the commit, then one empty line,
 then paragraph(s) with more details in free form, if necessary**.
 
 - **Why something was changed is more important than what has changed.**
-- Cross-reference to issues and discussions if possible/relevant.
 - Bad commit messages: "fix", "oops", "save work"
 - Bad examples: [http://whatthecommit.com](http://whatthecommit.com)
 - Write commit messages in English that will be understood
   15 years from now by someone else than you. Or by your future you.
 - Many projects start out as projects "just for me" and end up to be successful projects
   that are developed by 50 people over decades.
+- Cross-reference to issues and discussions if possible/relevant, e.g. "Increase threshold to 2.0, closes #41"
 - [Commits with multiple authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/) are possible.
 
 Good references:
@@ -273,8 +276,11 @@ $ git add <file(s)>
 $ git commit
 ```
 
+If you want to add all changes to a new commit:
 
-Every state is then saved and later.
+```console
+$ git add .
+```
 
 Here is some of the other commands we looked as a well as some which you might find useful:
 
@@ -291,8 +297,6 @@ $ git rm      # remove tracked files
 ```
 
 
-
-
 # Acknowledgement:
 This borrows heavily from:
 https://coderefinery.github.io/git-intro
@@ -304,6 +308,5 @@ https://cbea.ms/git-commit/
 requirements:
 
 navigate using terminal (bash)
-
 
  -->
