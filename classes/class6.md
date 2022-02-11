@@ -2,10 +2,11 @@
 Before class:
 [Install git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 
-Introduction:
-what is git?
-Should
-
+In class:
+setting it up with github
+git clone
+git push
+.gitignore
 
 
 
