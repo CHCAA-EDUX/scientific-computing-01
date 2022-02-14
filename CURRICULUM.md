@@ -11,7 +11,7 @@
 
 **Time**: Monday, February 21, 08.00-10.00
 
-**Location**:
+**Location**: 1441 - 012, Aud 1
 
 **Readings before class**: [Python Basics I](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/python_basics1.md)
 
@@ -47,7 +47,7 @@
 
 **Time**: Monday, February 28, 08.00-10.00
 
-**Location**:
+**Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
 
@@ -68,7 +68,7 @@ Exercises?
 <!-- IM kan ikke være der -->
 **Time**: Monday, March 7, 08.00-10.00
 
-**Location**:
+**Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
 
@@ -87,7 +87,7 @@ virtual environments (step by step guide)
 <!-- IM -->
 **Time**: Monday, March 14, 08.00-10.00
 
-**Location**:
+**Location**: 1441 - 012, Aud 1
 
 **Readings before class**: Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
 
@@ -107,7 +107,7 @@ virtual environments (step by step guide)
 
 **Time**: Monday, March 21, 08.00-10.00
 
-**Location**:
+**Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
 * iterative development
@@ -123,7 +123,7 @@ defensive design, debugging
 <!-- kenneth -->
 **Time**: Monday, March 28, 08.00-10.00
 
-**Location**:
+**Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
 
