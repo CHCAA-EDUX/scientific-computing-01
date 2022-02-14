@@ -93,7 +93,7 @@ virtual environments (step by step guide)
 
 #### Content of the class:
 1) Object Oriented Design (OOD) and UML diagrams
- - How can be structure our programming?
+ - How to structure our programming.
 
 2) Object Oriented Programming (OOP)
 -  Implementation of our desings
