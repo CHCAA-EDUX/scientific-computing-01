@@ -22,9 +22,9 @@ Readings before class:
 2) Introduction to CLI
 
 3) Exercises Data types
-* statement vs expression
-* data types (built-in)
-* (nested dict)
+  - statement vs expression
+  - data types (built-in)
+  - (nested dict)
 
 
 #### After the class the student should be able to:
@@ -42,6 +42,11 @@ Readings before class:
 Manday 28/02 08.00-10.00
 
 <!-- Lasse -->
+<!-- Links til inspiration:
+* https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/flow_control.md
+* https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.2-afternoon.md
+ -->
+
 flow control
 functions
 Exercises?
