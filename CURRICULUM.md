@@ -12,7 +12,7 @@ Manday 21/02 08.00-10.00
 <!-- IM -->
 
 Readings before class:
-* [Python Basics I](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/classes/class1.md)
+* [Python Basics I](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/python_basics1.md)
 
 #### Structure of the class
 
