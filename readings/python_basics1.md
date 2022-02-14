@@ -1,5 +1,7 @@
 # Python Basics 1
 
+Please read this before first class on Monday 21st of February 2022.
+
 ## Defining variables
 
 Python variables are assigned using the ```=``` sign:
