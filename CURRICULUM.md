@@ -50,16 +50,23 @@
 **Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
-
+TBA
 <!-- Links til inspiration:
 * https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/flow_control.md
 * https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.2-afternoon.md
  -->
 
-flow control
-functions
-Exercises?
-(nested dict)
+#### Content of the class
+1) Flow control
+- Be able to write and use for and while loops
+- Understand how to use `if, elif, else` for flow control
+- Know the function of the keywords `continue` and `break`
+
+2) Functions
+- Be able to write simple functions
+- Be able to integrate functions in for loops
+
+<!-- nested dict exercise? -->
 
 ---
 
@@ -71,6 +78,17 @@ Exercises?
 **Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
+TBA
+
+#### Content of the class
+1) Working with modules/libraries
+- Know what a module is and how to import and use them in Python
+- How to install libraries using `pip`
+- Be familiar with virtual environments and understand their use
+
+2) Creating a module
+- Know how to create re-usable functions
+- Best practice when developing re-usable functions/modules (docstrings, type hints, descriptive variable names)
 
 
 
@@ -79,7 +97,10 @@ create a module
 modules: os, time, numpy (pandas)
 virtual environments (step by step guide)
 
-<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt -->
+<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt 
+
+best practice med modules: docstrings, type hints, iterative development (små funktioner)
+-->
 
 ---
 
