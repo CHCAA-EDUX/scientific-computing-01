@@ -348,3 +348,4 @@ I hope you've been convinced by now that functions are pretty neat. Besides the 
 - Your code becomes much cleaner and simpler code.
 - And last, but not least, it allows you to re-use your code across different projects. More on this next week. 
 
+<!---  not covered: truthy/falsey values (empty lists, empty strings, lists, etc.. --->
