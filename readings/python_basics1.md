@@ -322,7 +322,7 @@ Note that we can also define the step size for a range of values:
 One of the most dramatically undervalued data types in the whole Python programming language is the ```dict``` or dictionary type. Dictionaries are constructed around combinations of {key:value} pairings. So unlike sequence types which are indexed by a range of numbers, ```dict``` objects are indexed by a specific *key*.
 
     # dictionary of users
-    users = {"mary" : 42; "john" : 31}
+    users = {"mary" : 42, "john" : 31}
     # get value for Mary
     users["mary"]
     # add new user
