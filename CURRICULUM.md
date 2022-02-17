@@ -50,7 +50,7 @@
 **Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
-(https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class2_basics2.md)
+[Python Basics II](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class2_basics2.md)
 <!-- Links til inspiration:
 * https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/flow_control.md
 * https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.2-afternoon.md
