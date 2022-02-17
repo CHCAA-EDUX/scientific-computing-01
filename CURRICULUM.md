@@ -58,15 +58,14 @@
 
 #### Content of the class
 1) Flow control
-- Be able to write and use for and while loops
-- Understand how to use `if, elif, else` for flow control
-- Know the function of the keywords `continue` and `break`
+- Be able to write and use for and while loops.
+- Understand how to use `if, elif, else` for flow control.
+- Know the function of the keywords `continue` and `break`.
 
 2) Functions
-- Be able to write simple functions
-- Be able to integrate functions in for loops
+- Be able to write simple functions.
+- Be able to integrate functions in for loops.
 
-<!-- nested dict exercise? -->
 
 ---
 
@@ -78,7 +77,7 @@
 **Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
-TBA
+[Modules and Packages](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class3_modules.md)
 
 #### Content of the class
 1) Working with modules/libraries
