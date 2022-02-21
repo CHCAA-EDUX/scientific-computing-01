@@ -9,6 +9,7 @@
 
 ## 2. Navigate to 'Files'
 #### To go 'Files' in the menu to the left.
+![](https://i.imgur.com/FMBvqnn.png)
 #### Make sure you have created a folder you want to save your work in.
 ![](https://i.imgur.com/bAfjheN.png)
 
