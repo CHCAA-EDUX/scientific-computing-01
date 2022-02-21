@@ -29,7 +29,7 @@
 ## 4. Create run
 #### Fill out 'Job name', e.g., "doing_exercises"
 
-#### Select the about of hours you want your application to run.
+#### Select the number of hours you want your application to run.
 ##### - You can always add more running time later on.
 
 #### Select machine type. If you don't run anything which requires lots of computational power, you can choose <= 4 CPUs.
@@ -48,16 +48,17 @@
 #### Selected the folder you want to work in. You can choose more than one.
 ![](https://i.imgur.com/r2NmLi7.png)
 
-#### Now you should be able to see the folder which you have chosen.
-#### Submit your run, by clicking 'Run' to the right.
+#### You should now be able to see the selected folder.
+#### Submit your run by clicking 'Submit' to the right.
 
 ![](https://i.imgur.com/r2ifphg.png)
 
-#### Now, uCloud is preparing your job, and you will see something like this:
+#### Now, uCloud is preparing your job and you will see something like this:
 ![](https://i.imgur.com/SE9NGM3.png)
 #### It might take a few minutes until you are through the queue.
 #### When you are through the queue you will see this:
 ![](https://i.imgur.com/mrEp6aW.png)
+#### This is also the window where you can add more running-time to your job.
 
 #### Open the 'Coder Python' application by clicking on 'Open Interface'
 ![](https://i.imgur.com/THhs1eT.png)
@@ -67,7 +68,7 @@
 ![](https://i.imgur.com/nByKfxG.png)
 
 ## 5. Stop run
-#### You can stop a run in two ways:
+#### You can stop a job from running in two ways:
 #### 1. In the job-info window, press 'Stop Application'.
 #### You need to hold down the button to confirm the stop.
 ![](https://i.imgur.com/1oPN0AR.png)
