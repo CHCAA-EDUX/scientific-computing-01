@@ -5,7 +5,7 @@
 Make the following exercises in groups of 2-3 people in the same way as last week. That is, discuss and explain your answers, and everyone should be programming. 
 
 
-## Control Fllow
+## Control Flow
 
 1) Write a loop that counts the number of vowels in a character string.
 2) Test it on a few individual words and full sentences.
