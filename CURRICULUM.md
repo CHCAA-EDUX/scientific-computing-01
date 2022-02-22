@@ -51,6 +51,7 @@
 
 **Readings before class**:
 [Python Basics II](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class2_basics2.md)
+Please make sure to complete the exercises from week 1 before this class.
 <!-- Links til inspiration:
 * https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/flow_control.md
 * https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.2-afternoon.md
@@ -58,15 +59,14 @@
 
 #### Content of the class
 1) Flow control
-- Be able to write and use for and while loops
-- Understand how to use `if, elif, else` for flow control
-- Know the function of the keywords `continue` and `break`
+- Be able to write and use for and while loops.
+- Understand how to use `if, elif, else` for flow control.
+- Know the function of the keywords `continue` and `break`.
 
 2) Functions
-- Be able to write simple functions
-- Be able to integrate functions in for loops
+- Be able to write simple functions.
+- Be able to integrate functions in for loops.
 
-<!-- nested dict exercise? -->
 
 ---
 
@@ -78,7 +78,8 @@
 **Location**: 1441 - 012, Aud 1
 
 **Readings before class**:
-TBA
+[Modules and Packages](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class3_modules.md)
+Please make sure to complete the exercises from week 2 before this class.
 
 #### Content of the class
 1) Working with modules/libraries

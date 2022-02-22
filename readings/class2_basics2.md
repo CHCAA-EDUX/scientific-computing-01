@@ -1,5 +1,7 @@
 # Python Basics 2
 **Please read this before class on January 28.**
+[Optional reading on flow control.](https://automatetheboringstuff.com/2e/chapter2/)
+[Optional reading on functions.](https://automatetheboringstuff.com/2e/chapter3/)
 
 ## Flow Control
 Control flow is used to do exactly what the name suggest - control the flow of the program. That is, control flow allows the program to make a decision based on the input, to follow one execution bath instead of another; to repeat; to bypass and so on. 
@@ -339,13 +341,15 @@ sort_and_title_case(course1)
 
 In general, if you find yourself having to do the same thing more than once, it's probably beneficial to turn the thing into a function. 
 
+If you want a bit more details on functions, [see this document.](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/functions.md)
+
 ### Advantages of using functions
 
 I hope you've been convinced by now that functions are pretty neat. Besides the obvious part about not having to copy-paste, functions have a bunch of other advantage
 
 - Automatic documentation. By collecting related operations into a function it becomes much easier to read the code afterwards. 
 - If (when) you find an error in your code, you only have to fix it in one place (the functino definition) and it will be fixed everywhere you call the function.
-- Your code becomes much cleaner and simpler code.
+- Your code becomes much cleaner and simpler.
 - And last, but not least, it allows you to re-use your code across different projects. More on this next week. 
 
 <!---  not covered: truthy/falsey values (empty lists, empty strings, lists, etc.. --->
