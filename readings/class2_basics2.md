@@ -70,7 +70,19 @@ for colour in colours:
         print(letter)
 ```
 
-`strings` are iterable which means you can loop over them to get the individual characters.
+`strings` are iterable which means you can loop over them to get the individual characters. E.g.:
+
+```python
+string = "Test"
+
+for letter in string:
+    print(letter)
+    
+> T
+> e
+> s
+> t
+``` # Added example since they need it for the class
 
 It can often be handy to keep track of your progress in the loop. Coming from `R` you might think of doing something like this:
 
