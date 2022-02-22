@@ -7,11 +7,12 @@ Make the following exercises in groups of 2-3 people in the same way as last wee
 
 ## Control Flow
 
-1) Write a loop that counts the number of vowels in a character string.
-2) Test it on a few individual words and full sentences.
-3) When done, compare your solution to your neighbor's pair. 
 
-4) Consider this code:
+1) Write a program that prints the numbers 1 to 10 using a for loop. 
+
+2) Write a program that prints the numbers 1 to 10 using a while loop.
+
+3) Consider this code:
 
 ```py
 if 4 > 5:
@@ -27,11 +28,11 @@ Which of the following would be printed if you were to run this code?
 - C
 - B and C
 
-5) What are the two values of the Boolean data type? How do you write them?
+4) What are the two values of the Boolean data type? How do you write them?
 
-6) What are the three Boolean operators?
+5) What are the three Boolean operators?
 
-7) What do the following expressions evaluate to?
+6) What do the following expressions evaluate to?
 
 ```py
 (5 > 4) and (3 == 5)
@@ -43,13 +44,15 @@ not (5 > 4)
 (True and True) and (True == False)
 ```
 
-8) Write code that prints "Hello" if 1 is stored in `spam`, prints "Howdy" if 2 is stored in `spam`, and prints "Greetings!" if anything else is stored in spam.
+7) Write code that prints "Hello" if 1 is stored in the `spam` variable, prints "Howdy" if 2 is stored in `spam`, and prints "Greetings!" if anything else is stored in spam.
 
-9) What is an infinite loop and what keys can you press if your program is stuck in one (hint: google)?
+8) What is an infinite loop and what keys can you press if your program is stuck in one (hint: google)?
 
-10) What is the difference between break and continue statements? 
+9) What is the difference between break and continue statements? 
 
-11) Write a program that prints the numbers 1 to 10 using a for loop. 
+10) Write a loop that counts the number of vowels in a character string.
+11) Test it on a few individual words and full sentences.
+12) When done, compare your solution to your neighbor's pair. 
 
 <details>
   <summary>Hint</summary>
@@ -57,7 +60,7 @@ not (5 > 4)
   Use the `range` function.
 </details>
 
-12) Write a program that prints the numbers 1 to 10 using a while loop. 
+ 
 
 ## Functions
 1) Consider the below code chunk. What will we see if we execute it?
@@ -77,9 +80,9 @@ print(outer("helium"))
 # "hm"
 ```
 
-3) When does the code in a function execute: during function definiton or function call?
+3) What is the difference between a function a function call?
 
-4) What is the difference between a function a function call?
+4) When does the code in a function execute: during function definiton or function call?
 
 5) Write a function that calculates the average of all the numbers in a list
 
@@ -121,4 +124,7 @@ print(fizz_buzz_range_solver(2, 4))
 # ["2", "Fizz", "4"]
  ```
 
- 4) Raise an error if the user specifies an illegal range (e.g. (4, 2))
+ 4) Raise an error if the user specifies an illegal range (e.g. (4, 2)).
+
+ 5) Make your function return a dictionary with the integer as key and "Fizz"/"Buzz".. as value, e.g. `{2: "2", 3: "Fizz"}`.
+
