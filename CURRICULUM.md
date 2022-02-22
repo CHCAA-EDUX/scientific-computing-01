@@ -123,37 +123,45 @@ best practice med modules: docstrings, type hints, iterative development (små f
 <!-- * Agent-based models -->
 
 ---
-### Lesson 5: Projects and Iterative development and Projects
+### Lesson 5: Projects and Iterative development
 <!-- kenneth -->
 
 **Time**: Monday, March 21, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**:
-* iterative development
+**Readings before class**: [Iterative development](readings/class4_iterative_devolopment.md)
 
+#### Content of the class
 
-defensive design, debugging
+* Question from readings
+* exercises on a project
 
-* assertion
-
- ---
+---
 
 ### Lesson 6: collaborative distributed version control
 <!-- kenneth -->
+
 **Time**: Monday, March 28, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**:
+**Before class**:
+- Read [Introduction to Git](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/introduction-to-git.md)
+- Create a [GitHub user](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwig2fnl_JL2AhUNPuwKHSCRAlsQFnoECAcQAQ&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk)
+- Finalize code from last time. It will be used in this class.
+
+**Optional before class**: [Install git](https://docs.github.com/en/get-started/quickstart/set-up-git) on your local laptop
 
 
-* git
-* project templates
-* repositories
+#### Content of the class
 
+* git and GitHub
+* the .gitignore
+* Branches
+* Pull requests
 
+*Note*: We will no spent too much time going over git basics to please read before the class.
 
 
 ## Literature
