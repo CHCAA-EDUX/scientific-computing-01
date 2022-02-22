@@ -8,7 +8,7 @@ Make the following exercises in groups of 2-3 people in the same way as last wee
 ## Control Fllow
 
 1) Write a loop that counts the number of vowels in a character string.
-2) Test it on a few individual words and full sentences
+2) Test it on a few individual words and full sentences.
 3) When done, compare your solution to your neighbor's pair. 
 
 4) Consider this code:
@@ -45,7 +45,7 @@ not (5 > 4)
 
 8) Write code that prints "Hello" if 1 is stored in `spam`, prints "Howdy" if 2 is stored in `spam`, and prints "Greetings!" if anything else is stored in spam.
 
-9) What is an infinite loop and what keys can you press if your program is stuck in one?
+9) What is an infinite loop and what keys can you press if your program is stuck in one (hint: google)?
 
 10) What is the difference between break and continue statements? 
 
@@ -83,9 +83,9 @@ print(outer("helium"))
 
 5) Write a function that calculates the average of all the numbers in a list
 
-6) Write a program that prints all the numbers from 0 to 6 except 3 and 6 using a for loop and the `range` function.
+6) Write a program that prints all the numbers from 0 to 7 except 3 and 6 using a for loop and the `range` function.
 
-7) Write a function that takes a string and prints the number of digits and the number of letters. 
+7) Write a function that takes a string and prints the number of digits and the number of letters and formats it like below:
 
 ```py
 digit_letter_counter("1337 Python)
@@ -94,8 +94,8 @@ digit_letter_counter("1337 Python)
 ```
 
 
- ## Fizz Buzz
- Fizz buzz is a classic programming assingment (so don't cheat by googling it..) the task is the following:
+## Fizz Buzz
+Fizz buzz is a classic programming assingment (so don't cheat by googling it..) the task is the following:
 
 1) Write a function that takes an integer as input and returns "Fizz" if the integer is divisible by 3, "Buzz" if the integer is divisible by 5, "FizzBuzz" if the integer is divisible by both 3 and 5, or the integer as a string if none of the other conditions are met.
 
@@ -111,8 +111,8 @@ digit_letter_counter("1337 Python)
 
 
  ```py
- def fizz_buzz_range_solver(start_number, end_number):
-     # do stuff
+def fizz_buzz_range_solver(start_number, end_number):
+    # do stuff
 
 print(fizz_buzz_range_solver(2, 4))
 # "2", 
