@@ -9,7 +9,7 @@ Control flow is used to do exactly what the name suggest - control the flow of t
 Coming from R, some of this might seem a bit unusual. Don't worry, it gets to be second nature! We suggest running the code chunks on UCloud to see what exactly they do. Try to write them yourself instead of copy-pasting to get a feel for the syntax. 
 
 ### For loops
-For loops are one of the most used statements in Python. They allow you to iterate over any *iterable* (such as `lists` or `tuples`) and perform some operation on them.
+For loops are one of the most used statements in Python. They allow you to iterate over any *iterable* (such as `lists`, `tuples` or `dicts`) and perform some operation on them.
 
 For loops have the following components:
 - the `for` keyword
@@ -19,7 +19,7 @@ For loops have the following components:
 - a `:`
 - the `for` clause which is indented in the following lines
 
-Whereas for loops are enclosed by curly brackets `{}`, Python uses indentation to mark the start and end of a for loop (4 spaces or a tab).
+Whereas for loops are enclosed by curly brackets, `{}`, in R, Python uses indentation to mark the start and end of a for loop (4 spaces or a tab).
 
 ```python
 colours = ["red", "green", "blue"]
@@ -44,7 +44,7 @@ Note that we have to be really careful with our indentation, otherwise Python th
 for i in range(10):
 print(i)
 
->>> IndentationError: expected an indented block
+IndentationError: expected an indented block
 ```
 
 
@@ -111,7 +111,7 @@ for name in names:
         print(f"Hello, {name})
 ```
 
-You can include arbitrarily many `if` statements and nest them however you like.
+Just like with `for` loops, you can include arbitrarily many `if` statements and nest them however you like.
 
 ```python
 for name in names:
@@ -123,7 +123,7 @@ for name in names:
 
 Even though there is an 'a' in Lasse, the `print` expression is not executed as the first condition (`name in ["Ida-Marie", "Kenneth"`) is not `True`.
 
-How would you change the indentation in the above expression to also print `I see your name has an 'a' in it` when the name is not "Ida Marie" or "Kenneth"?
+How would you change above expression to also print `I see your name has an 'a' in it` when the name is not "Ida Marie" or "Kenneth"?
 
 #### elif
 `elif` behaves very similarly to `if`, but is only evaluated if the preceeding expression is not `True`:
@@ -171,7 +171,8 @@ Most of them are self-explanatory, but let's go through some examples of what th
 # False
 2 != 3
 # True
-5 != 5 False
+5 != 5 
+# False
 ```
 
 - Strings and floats
@@ -198,7 +199,7 @@ banana >= apple
 
 Be careful to use `==` when comparing values and not `=`!
 
-Boolean values/expression (`True`/`False`) can be compared using the boolean operators `not`, `and`, `or`. They might look a bit daunting and take some getting used to, but they are quite logical once you get the hang of them, and are widely used across all programming languages and programming purposes. 
+Boolean values/expressions (`True`/`False`) can be compared using the Boolean operators `not`, `and`, `or`. They might look a bit daunting and take some getting used to, but they are quite logical once you get the hang of them, and are widely used across all programming languages and programming purposes. 
 
 **Negation, `not`**
 | Expression | not `True` | not `False` |
@@ -217,23 +218,28 @@ not not B
 ```
 
 **Conjunction, `and`**
+
+For expressions using `and` to be `True` both conditions have to be `True` as shown in the below table.
+
 | Expression | `True` and `True` | `True` and `False` | `False` and `True` | `False` and `False` |
 | - | :-: | :-: | :-: | :-: |
 | Evaluates to...  | __T__ | __F__ | __F__ | __F__ |
 
-For expressions using `and` to be `True` both conditions have to be `True`. 
+
  
 **Disjunction `or`**
+
+For expressions using `or` to be `True`, just one of the conditions need to be `True`.
+
 | Expression | `True` or `True` | `True` or `False` | `False` or `True` | `False` or `False` |
 | - | :-: | :-: | :-: | :-: |
 | Evaluates to...  | __T__ | __T__ | __T__ | __F__ |
 
-For expressions using `or` to be `True`, just one of the conditions need to be `True`.
 
 
 
 ### Continue, Break
-To finish the section on flow control, we should mention the two keywords `continue` and `break`. `break` is used to prematurely end a loop (can be both a for or a while loop) and are commonly triggered upon some condition using an `if` statement
+To finish the section on flow control, we should mention the two keywords `continue` and `break`. `break` is used to prematurely end a loop (can be both a for or a while loop) and is commonly triggered upon some condition using an `if` statement
 
 ```python
 num = 0
@@ -278,7 +284,7 @@ Current Letter : n
 
 
 ## Functions
-A core principle of programming is that you should not repeat yourself. Functions allow us to define a sequence of operations which we can then call instead of copy-pasting copy multiple times. Essentially, functions are just a set of actions we group together and give some name. A functions takes the following general form:
+A core principle of programming is that you should not repeat yourself. Functions allow us to define a sequence of operations which we can then call instead of copy-pasting multiple times. Essentially, functions are just a set of actions we group together and give some name. A functions takes the following general form:
 
 ```py
 def function_name(argument_1, argument_2, argument_n):
@@ -302,7 +308,7 @@ function_name(value_1, value_2, value_n)
     - I.e. they can be entirely different from what you use in the rest of your program.
 - Add a closing parenthesis and a :
 - Indent your code with 4 spaces or a tab and write whatever code you need to.
-- Finish with a `return` statement which defines what the output of your function will be
+- Finish with a `return` statement which defines what the output of your function will be.
 
 If you forget to add a `return` statement, the function will go through all the calculations but will not give you any output. 
 
@@ -341,14 +347,57 @@ sort_and_title_case(course1)
 
 In general, if you find yourself having to do the same thing more than once, it's probably beneficial to turn the thing into a function. 
 
-If you want a bit more details on functions, [see this document.](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/functions.md)
+Notice that I'm using the variable `course1` as input to the function. We defined `sort_and_title_case` to take a single argument, `names`, which we perform some computation on. In this case, `course1` will be translated into the variable `names` inside the function.
+
+There are multiple ways to pass arguments into functions. Above we used the *position* to indicate which variable goes where. Consider this simple function:
+
+```py
+def print_2_things(first_thing, second_thing):
+    print(first_thing, second_thing)
+    return None
+```
+
+We can call it in multiple ways (this is just a subset):
+
+```py
+first_thing = "banana"
+second_thing = "apple"
+
+print_2_things(first_thing, second_thing)
+print_2_things(second_thing, first_thing)
+
+print_2_things(first_thing=first_thing, second_thing=second_thing)
+print_2_things(first_thing=second_thing, second_thing=first_thing)
+
+print_2_things(second_thing=first_thing, first_thing=second_thing)
+print_2_things(second_thing=second_thing, first_thing=first_thing)
+```
+
+What do you think each line will print?
+
+
+<details>
+  <summary>Answer</summary>
+  
+  ```
+banana apple
+apple banana
+banana apple
+apple banana
+apple banana
+banana apple
+  ```
+</details>
+
+
+If you want a bit more details on functions, [see this document.](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/functions.md), or [this one for even more](https://automatetheboringstuff.com/2e/chapter3/).
 
 ### Advantages of using functions
 
-I hope you've been convinced by now that functions are pretty neat. Besides the obvious part about not having to copy-paste, functions have a bunch of other advantage
+I hope you've been convinced by now that functions are pretty neat. Besides the obvious part about not having to copy-paste, functions have a bunch of other advantages:
 
 - Automatic documentation. By collecting related operations into a function it becomes much easier to read the code afterwards. 
-- If (when) you find an error in your code, you only have to fix it in one place (the functino definition) and it will be fixed everywhere you call the function.
+- If (when) you find an error in your code, you only have to fix it in one place (the function definition) and it will be fixed everywhere you call the function.
 - Your code becomes much cleaner and simpler.
 - And last, but not least, it allows you to re-use your code across different projects. More on this next week. 
 
