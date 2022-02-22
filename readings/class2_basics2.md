@@ -1,6 +1,8 @@
 # Python Basics 2
-**Please read this before class on January 28.**
+**Please read this document before class on January 28.**
+
 [Optional reading on flow control.](https://automatetheboringstuff.com/2e/chapter2/)
+
 [Optional reading on functions.](https://automatetheboringstuff.com/2e/chapter3/)
 
 ## Flow Control
