@@ -91,16 +91,14 @@ Please make sure to complete the exercises from week 2 before this class.
 - Know how to create re-usable functions
 - Best practice when developing re-usable functions/modules (docstrings, type hints, descriptive variable names)
 
-
-
-create a module
 <!-- import i R -->
-modules: os, time, numpy (pandas)
-virtual environments (step by step guide)
+
 
 <!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt 
 
 best practice med modules: docstrings, type hints, iterative development (små funktioner)
+modules: os, time, numpy (pandas)
+virtual environments (step by step guide)
 -->
 
 ---
