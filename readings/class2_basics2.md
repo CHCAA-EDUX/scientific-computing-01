@@ -1,5 +1,5 @@
 # Python Basics 2
-**Please read this before class on January 28.**
+**Please read this document before class on January 28.**
 [Optional reading on flow control.](https://automatetheboringstuff.com/2e/chapter2/)
 [Optional reading on functions.](https://automatetheboringstuff.com/2e/chapter3/)
 
@@ -69,6 +69,17 @@ for colour in colours:
 ```
 
 `strings` are iterable which means you can loop over them to get the individual characters.
+
+```python
+string = "Test"
+for letter in string:
+    print(letter)
+    
+> T
+> e
+> s
+> t
+```
 
 It can often be handy to keep track of your progress in the loop. Coming from `R` you might think of doing something like this:
 
