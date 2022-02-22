@@ -5,7 +5,7 @@
 Make the following exercises in groups of 2-3 people in the same way as last week. That is, discuss and explain your answers, and everyone should be programming. 
 
 
-## Control Fllow
+## Control Flow
 
 1) Write a loop that counts the number of vowels in a character string.
 2) Test it on a few individual words and full sentences
@@ -43,13 +43,13 @@ not (5 > 4)
 (True and True) and (True == False)
 ```
 
-8) Write code that prints "Hello" if 1 is stored in `spam`, prints "Howdy" if 2 is stored in `spam`, and prints "Greetings!" if anything else is stored in spam.
+8) Write code that prints "Hello" if 1 is stored in `spam`, prints "Howdy" if 2 is stored in `spam`, and prints "Greetings!" if anything else is stored in spam. # Which data-type is `spam` supposed to be here? A variable?
 
 9) What is an infinite loop and what keys can you press if your program is stuck in one?
 
 10) What is the difference between break and continue statements? 
 
-11) Write a program that prints the numbers 1 to 10 using a for loop. 
+11) Write a program that prints the numbers 1 to 10 using a for loop. # Virker væsentligt nemmere end 1)? ;-)
 
 <details>
   <summary>Hint</summary>
@@ -77,9 +77,9 @@ print(outer("helium"))
 # "hm"
 ```
 
-3) When does the code in a function execute: during function definiton or function call?
+3) What is the difference between a function and a function call?
 
-4) What is the difference between a function a function call?
+4) When does the code in a function execute: during function definiton or function call?
 
 5) Write a function that calculates the average of all the numbers in a list
 
@@ -105,9 +105,9 @@ digit_letter_counter("1337 Python)
   Use the modulo `%%` operator.
 </details>
 
- 2) Test your function on all numbers from 1 to 50 using a for loop.
+2) Test your function on all numbers from 1 to 50 using a for loop.
 
- 3) Create a function that prints the Fizz Buzz solution to the numbers in a given range and returns the solutions as a list. See below:
+3) Create a function that prints the Fizz Buzz solution to the numbers in a given range and returns the solutions as a list. See below: # Måske dictionary her? E.g. {2: "2", 3: "Fizz"}.
 
 
  ```py
