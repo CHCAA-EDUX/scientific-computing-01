@@ -51,6 +51,7 @@
 
 **Readings before class**:
 [Python Basics II](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class2_basics2.md)
+Please make sure to complete the exercises from week 1 before this class.
 <!-- Links til inspiration:
 * https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/lessons/flow_control.md
 * https://github.com/CHCAA-EDUX/Scientific-Computing-Workshop-E21/blob/main/day-1-oop/day-1.2-afternoon.md
@@ -78,6 +79,7 @@
 
 **Readings before class**:
 [Modules and Packages](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class3_modules.md)
+Please make sure to complete the exercises from week 2 before this class.
 
 #### Content of the class
 1) Working with modules/libraries
