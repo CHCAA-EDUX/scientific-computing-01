@@ -91,7 +91,7 @@ print(outer("helium"))
 7) Write a function that takes a string and prints the number of digits and the number of letters and formats it like below:
 
 ```py
-digit_letter_counter("1337 Python)
+digit_letter_counter("1337 Python")
 # Letters: 6
 # Digits: 4
 ```
