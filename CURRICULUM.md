@@ -116,7 +116,7 @@ virtual environments (step by step guide)
  - How to structure our programming.
 
 2) Object Oriented Programming (OOP)
--  Implementation of our desings
+-  Implementation of our designs
 
 <!-- https://python.astrotech.io/design-patterns/uml/class-diagram.html -->
 <!-- * Agent-based models -->
