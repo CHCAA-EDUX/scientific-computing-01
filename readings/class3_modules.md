@@ -38,7 +38,7 @@ pip install numpy pandas spacy
 ```
 
 ## Virtual Environments
-As packages get updated, some of their functions might change. This means that a package or program might require a specific version of a package to function correctly. To ensure that your program uses the correct versions you should use a _virtual environment_.
+As packages get updated, some of their functions will change. This means that a package or program might require a specific version of a package to function correctly. To ensure that your program uses the correct versions you should use a _virtual environment_.
 
 A virtual environment is essentially a seperate Python installation which you can install packages to. As a rule of thumb, each project you work on should have its own virtual environment to ensure that everything works correctly. 
 
