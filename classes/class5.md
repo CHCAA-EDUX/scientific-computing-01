@@ -3,6 +3,29 @@
 Introduction:
 Projects, iterative development, debugging
 
+
+
+
+
+
+
+# min number of word to satisfy the ratio
+min_alpha_token = int(doc._.len * ratio)
+
+n_alpha_tokens = 0
+for t in doc:
+    if t.is_space:
+        continue
+    # checks if a non-space token contains a alphabetic character
+    if contains_alpha_fn(t.text):
+        n_alpha_tokens += 1
+        if n_alpha_tokens >= min_alpha_token:
+            return True
+return False
+
+
+ -->
+
 Project: Comparing genres or authorship attribution
 
 Two groups A and B
@@ -78,7 +101,7 @@ https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#
 
 
 <!-- 
-requirements:
+should include (if not already presented)
 
 str methods: 
 .strip, .split
@@ -86,12 +109,11 @@ str methods:
 modules:
 os, pandas (creating dataframe, writing to csv, the from_dict method)
 
-Flow control:
-if, for
-
 Functions:
-sorted, using lamdbda methods
- -->
+sorted, using lambda methods
 
+
+requirements.txt?
+ -->
 
 sorted([("test", 1), ("atester", 2)], )
