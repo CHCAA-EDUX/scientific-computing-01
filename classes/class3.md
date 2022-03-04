@@ -149,9 +149,8 @@ Let's try to apply the functions we created for a slightly different task: analy
 
 
 ### Prime numbers 
-Lastly, let's try using the function to count how many prime numbers there are in a randomly generated list of 10 numbers between 2 and 100. 
+Lastly, let's try using the functions to count how many prime numbers there are in a randomly generated list of 10 numbers between 2 and 100. 
 
-## Hint at using functions from previously?
 
 1) Create a new script called `prime_analysis.py`. Make a list of all prime numbers between 2 and 100:
 
