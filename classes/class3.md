@@ -24,9 +24,9 @@ b = np.array([2, 4, 6])
 </details>
 
 
-4) In the file `functions.py`, write a function `character_count` that takes a string and counts the number of characters. Import the function in another file in the same directory and test the function.
+4) Create a file called `functions.py`. In it, write a function `character_count` that takes a string and counts the number of characters. Create another file, `main.py`. From `main.py`, import `character_count` and apply it to a string.
 
-5) Create a function called `tokenize` that lowercases a character string and splits it into individual words everytime there is a space. The output should look like the following:
+5) Create a function in `functions.py` called `tokenize` that lowercases a character string and splits it into individual words everytime there is a space. The output should look like the following:
 
 ```py
 >>> print(tokenize("Hello, my name is Lasse"))
@@ -61,7 +61,7 @@ b = np.array([2, 4, 6])
 You have now created the foundation for a small program that can do _sentiment analysis_, which is the task of assesing the polarity (positive/negative) of a text. Let's turn your code into a working program!
 
 
-1) Create a folder called `data` in your working directory. Add a file called `text1.txt` in which you paste the content from [this file](), and a file called `text2.txt` in which you paste the content from [this file.]() to `data`. Next, create a folder called `src` in your working directory. Create a file called `utils.py` in `src`. Finally, create a file called `sentiment_analysis.py` in your working directory. By now, your folder structure should look something like this:
+1) Create a folder called `data` in your working directory. Add a file called `text1.txt` in which you paste the content from [this file](g), and a file called `text2.txt` in which you paste the content from [this file.]() to `data`. Next, create a folder called `src` in your working directory. Create a file called `utils.py` in `src`. Finally, create a file called `sentiment_analysis.py` in your working directory. By now, your folder structure should look something like this: 
 
 ```
 scientific-computing-01
@@ -82,7 +82,8 @@ We now have a skeleton for our project. Time to add some meat to the `.py` files
 
 2) First, move `tokenize`, `hit_counter`, and `hit_counter_prop` to the `utils.py` file. 
 
-3) In `utils.py`, create a function called `get_txt_files` that returns a list of all the files ending in `.txt` in a directory. Import the function in `sentiment_analysis.py` and apply it to the path to your data folder. You should get an output similar to this: 
+3) In `utils.py`, create a function called `get_txt_files` that returns a list of the path to all the files ending in `.txt` in a directory. Import the function in `sentiment_analysis.py` and apply it to the path to your data folder. You should get an output similar to this:
+
 
 ```py
 >>> path_to_data_folder = "/work/scientific-computing-01/class3/data"
@@ -116,7 +117,7 @@ POSITIVE_WORDS = ["best", "love", "great", "joy", "amazing", "amazing"]
 NEGATIVE_WORDS = ["sad", "bad", "stupid", "hate", "disappointing", "worst"]
 ```
 
-> Constants are often named in CAPITAL letters to distinguish them from functions and to signal that they should be changed.
+> Constants are often named in CAPITAL letters to distinguish them from functions and to signal that they should not be changed.
 
 
 We are now ready to go!
@@ -130,15 +131,15 @@ x) Save the list of files in `data` to a variable using the `get_txt_files` func
   - Print the text.
   - Calculate both the positive and the negative score using the two word lists and `hit_counter` or `hit_counter_prop`.
   - Print the results in an intuitive way.
-  - (Optional): save the results to a .csv file.
+  - (Optional): Save the results to a .csv file.
 
 8) Run your code from the terminal and witness your beautiful creation!
 
-The beauty making a program like this, is that you can simply change the files in the `data` folder, and your program will always work the same. At this point, it would be relatively straightforward to turn the code you have in `sentiment_analysis` into a function that does sentiment analysis of a given text/path/list of either, that you could use for a large variety of projects. 
+The beauty of making a program like this is that you can simply change the files in the `data` folder, and your program will always work the same. At this point, it would be relatively straightforward to turn the code you have in `sentiment_analysis` into a function that does sentiment analysis of a given text/path/list of either, that you could use for a large variety of projects. 
 
 
-### Representation af mænd/kvinder
-Let's try to apply the functions we created for a slightly different task: analysing how well presented males and females are in the first chapter of Harry Potter and the Philosopher's Stone.
+### Representation af males/females
+Let's try to apply the functions we created for a slightly different task: analysing how well-represented males and females are in the first chapter of Harry Potter and the Philosopher's Stone.
 
 1) Create a new script called `gender_representation.py` in the same directory as `sentiment_analysis.py`. Create a folder inside the `data` directory called `gender_data` and create the file `hp_ch1.txt` in which you paste the contents from [this file](). 
 
@@ -149,6 +150,8 @@ Let's try to apply the functions we created for a slightly different task: analy
 
 ### Prime numbers 
 Lastly, let's try using the function to count how many prime numbers there are in a randomly generated list of 10 numbers between 2 and 100. 
+
+## Hint at using functions from previously?
 
 1) Create a new script called `prime_analysis.py`. Make a list of all prime numbers between 2 and 100:
 
