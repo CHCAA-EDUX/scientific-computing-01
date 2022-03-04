@@ -84,7 +84,6 @@ We now have a skeleton for our project. Time to add some meat to the `.py` files
 
 3) In `utils.py`, create a function called `get_txt_files` that returns a list of the path to all the files ending in `.txt` in a directory. Import the function in `sentiment_analysis.py` and apply it to the path to your data folder. You should get an output similar to this:
 
-## Remember to talk about what a "path" means when introducing the class
 
 ```py
 >>> path_to_data_folder = "/work/scientific-computing-01/class3/data"
