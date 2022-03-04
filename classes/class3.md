@@ -61,7 +61,7 @@ b = np.array([2, 4, 6])
 You have now created the foundation for a small program that can do _sentiment analysis_, which is the task of assesing the polarity (positive/negative) of a text. Let's turn your code into a working program!
 
 
-1) Create a folder called `data` in your working directory. Add a file called `text1.txt` in which you paste the content from [this file](g), and a file called `text2.txt` in which you paste the content from [this file.]() to `data`. Next, create a folder called `src` in your working directory. Create a file called `utils.py` in `src`. Finally, create a file called `sentiment_analysis.py` in your working directory. By now, your folder structure should look something like this: ## Missing links in this block?
+1) Create a folder called `data` in your working directory. Add a file called `text1.txt` in which you paste the content from [this file](g), and a file called `text2.txt` in which you paste the content from [this file.]() to `data`. Next, create a folder called `src` in your working directory. Create a file called `utils.py` in `src`. Finally, create a file called `sentiment_analysis.py` in your working directory. By now, your folder structure should look something like this: 
 
 ```
 scientific-computing-01
