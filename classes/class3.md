@@ -61,7 +61,7 @@ b = np.array([2, 4, 6])
 You have now created the foundation for a small program that can do _sentiment analysis_, which is the task of assesing the polarity (positive/negative) of a text. Let's turn your code into a working program!
 
 
-1) Create a folder called `data` in your working directory. Add a file called `text1.txt` in which you paste the content from [this file](g), and a file called `text2.txt` in which you paste the content from [this file.]() to `data`. Next, create a folder called `src` in your working directory. Create a file called `utils.py` in `src`. Finally, create a file called `sentiment_analysis.py` in your working directory. By now, your folder structure should look something like this: 
+1) Create a folder called `data` in your working directory. Add a file called `text1.txt` in which you paste the content from [this file](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/data/text1.txt), and a file called `text2.txt` in which you paste the content from [this file.](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/week3/data/text2.txt) to `data`. Next, create a folder called `src` in your working directory. Create a file called `utils.py` in `src`. Finally, create a file called `sentiment_analysis.py` in your working directory. By now, your folder structure should look something like this: 
 
 ```
 scientific-computing-01
@@ -141,7 +141,7 @@ The beauty of making a program like this is that you can simply change the files
 ### Representation af males/females
 Let's try to apply the functions we created for a slightly different task: analysing how well-represented males and females are in the first chapter of Harry Potter and the Philosopher's Stone.
 
-1) Create a new script called `gender_representation.py` in the same directory as `sentiment_analysis.py`. Create a folder inside the `data` directory called `gender_data` and create the file `hp_ch1.txt` in which you paste the contents from [this file](). 
+1) Create a new script called `gender_representation.py` in the same directory as `sentiment_analysis.py`. Create a folder inside the `data` directory called `gender_data` and create the file `hp_ch1.txt` in which you paste the contents from [this file](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/week3/data/gender_data/hp_ch1.txt). 
 
 2) Make two new word lists: `MALE_WORDS` and `FEMALE_WORDS` which include words that you think are related to each gender (e.g. "he", "him", "she", "her", etc.)
 
