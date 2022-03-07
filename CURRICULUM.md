@@ -81,6 +81,8 @@ Please make sure to complete the exercises from week 1 before this class.
 [Modules and Packages](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/class3_modules.md)
 Please make sure to complete the exercises from week 2 before this class.
 
+[Lecture video](https://youtu.be/-zNK3N-hYyg)
+
 #### Content of the class
 1) Working with modules/libraries
 - Know what a module is and how to import and use them in Python
@@ -109,7 +111,10 @@ virtual environments (step by step guide)
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**: Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
+**Readings before class**: 
+
+- Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
+- Watch [last week's lecture](https://youtu.be/-zNK3N-hYyg)
 
 #### Content of the class:
 1) Object Oriented Design (OOD) and UML diagrams
