@@ -111,8 +111,8 @@ virtual environments (step by step guide)
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**: 
-
+**Readings before class**: Sorry for the late upload!  Prioritize the second chapter if you don't have time for both :) 
+- Phillips 2015, chp 1, [Object-oriented Design](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/reading/Phillipos-2015-OOP-01.pdf) 
 - Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
 - Watch [last week's lecture](https://youtu.be/-zNK3N-hYyg)
 
