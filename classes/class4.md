@@ -8,7 +8,7 @@ For the design and programming exercises, all group members should be drawing an
 ## Object Oriented Design ##
 
 0. Decide on a “is a”-relationship you want to work with.
-1. Design several classes (at least two).
+1. Design several classes – at least two subclasses and one superclass.
 2. Identify the attributes and methods. Which ones belong in the superclass? And which in the subclass?
 3. Create a UML diagram to design your object template(s).
 Tip: Keep it simple!
