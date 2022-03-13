@@ -15,7 +15,7 @@ Tip: Keep it simple!
 
 ## Conceptuals ##
 0. What is the difference between a class and an object?
-1. In Python, what is the difference between a method and a function?
+1. What is the difference between a method and a function?
 2. What with wrong in the following code:
 
 ```py
@@ -44,7 +44,7 @@ class Car(Vehicle):
 
 Implement the following UML diagram in Python:
 
-![](https://i.imgur.com/TWKPR90.png)
+![](https://i.imgur.com/v3AfgwE.png)
 
 ## Check your understanding ##
 
