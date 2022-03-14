@@ -96,7 +96,7 @@ Please make sure to complete the exercises from week 2 before this class.
 <!-- import i R -->
 
 
-<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt 
+<!-- prøv at load en pakke der ikke er installeret -> error -> gå i terminal -> pip install -> snak om nice med requirements.txt og venvs.. Giver mindre mening på ucloud, mere lokalt
 
 best practice med modules: docstrings, type hints, iterative development (små funktioner)
 modules: os, time, numpy (pandas)
@@ -107,12 +107,12 @@ virtual environments (step by step guide)
 
 ### Lesson 4: Object-Oriented Programming
 <!-- IM -->
-**Time**: Monday, March 14, 08.00-10.00
+**Time (UPDATED)**: Monday, March 21, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
-**Readings before class**: Sorry for the late upload!  Prioritize the second chapter if you don't have time for both :) 
-- Phillips 2015, chp 1, [Object-oriented Design](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/reading/Phillipos-2015-OOP-01.pdf) 
+**Readings before class**: 
+- Phillips 2015, chp 1, [Object-oriented Design](https://github.com/CHCAA-EDUX/Programming-for-the-Humanities-E21/blob/main/reading/Phillipos-2015-OOP-01.pdf)
 - Phillips 2015, chp 2, [Objects in Python](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/Phillipos-2015-OOP-02.pdf)
 - Watch [last week's lecture](https://youtu.be/-zNK3N-hYyg)
 
@@ -130,7 +130,7 @@ virtual environments (step by step guide)
 ### Lesson 5: Projects and Iterative development
 <!-- kenneth -->
 
-**Time**: Monday, March 21, 08.00-10.00
+**Time (UPDATED)**: Monday, March 28, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
@@ -146,7 +146,7 @@ virtual environments (step by step guide)
 ### Lesson 6: collaborative distributed version control
 <!-- kenneth -->
 
-**Time**: Monday, March 28, 08.00-10.00
+**Time (UPDATED)**: Monday, April 04, 08.00-10.00
 
 **Location**: 1441 - 012, Aud 1
 
