@@ -25,8 +25,11 @@ class Vehicle():
     	print("Vehicle is moving")
 
 class Car(Vehicle):
+    def __init__(self):
+        self.fuel_tank_level = 0.5
 
     def fill_tank():
+        self.fuel_tank_level = 1
         print("Fuel tank is now full")
 
 ```
