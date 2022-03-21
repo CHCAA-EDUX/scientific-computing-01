@@ -7,7 +7,7 @@ class Animal:
         print(f"Animal at age {self.age} is eating")
 
 class Zebra(Animal):
-    def __init__(self, number_of_stripes = 42, **kwargs):
+    def __init__(self, number_of_stripes = None, **kwargs):
         super(Zebra, self).__init__(**kwargs)
         self.number_of_stripes = number_of_stripes
 
