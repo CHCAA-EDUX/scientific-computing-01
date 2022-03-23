@@ -138,9 +138,11 @@ virtual environments (step by step guide)
 
 #### Content of the class
 
-* Question from readings
-* exercises on a project
+* Question/Overview of readings
+* Introduction to the debugger in VS code
+* [exercises](classes/class5.md) on a project
 
+<!-- Plan:  -->
 ---
 
 ### Lesson 6: collaborative distributed version control
@@ -165,7 +167,7 @@ virtual environments (step by step guide)
 * Branches
 * Pull requests
 
-*Note*: We will no spent too much time going over git basics to please read before the class.
+*Note*: We will not spent too much time going over git basics to please read before the class.
 
 
 ## Literature
