@@ -36,7 +36,19 @@ In this part you should implement the following steps:
 <br /> 
 
 - Implement a function which tokenize a string
-  - For now you can split by white space and remove punctuations, but if you have the time do check out the optional.
+  - For now you can split by white space and remove punctuations, but if you have the time do check out the optional. You cannot import packages such as NLTK which implement this function.
+
+
+
+<br /> 
+
+<details>
+  <summary>Hint:</summary>
+
+  You can use the `.split()` method in python to split by whitespace.
+
+</details>
+
 
 <details>
   <summary>Optional:</summary>
@@ -48,6 +60,16 @@ In this part you should implement the following steps:
     - What about words such as isn't or it's? Transform them into the constituent words i.e. "isn't" -> "is|not" (instead of "isn|t" or "isn|'|t")
   - Extend tokenization 3:
     - Make common expressions such as "e.g.", "U.K." into tokens (i.e. the punctuation should be removed). You can do this either using a list of common expressions or maybe using a smarter approach?
+
+</details>
+
+
+<details>
+  <summary>Why cant I import NLTK?</summary>
+
+  Of course, were you to do this for practice I would recommend using an implemented function. Actually, I would recommend the tokenizer for SpaCy.
+  However, the goal of this exercise is to teach you string manipulation and by importing a function you forgo the goal of the exercise.
+
 
 </details>
 
@@ -66,12 +88,12 @@ print(counts)
 
 - Create a dataframe of word counts and the columns are texts. This can be done using Pandas (See example). The output should look like this: 
 
-| Words | Harry Potter | Bible |
-| --- | --- | --- |
-| Word1 | 2 | 4 | 
-| Word2 | 24 | 0 | 
-| Word3 | 21 | 512 | 
-| ... | ... | ... | 
+| Words | Harry Potter | Bible |
+| ----- | ------------ | ----- |
+| Word1 | 2            | 4     |
+| Word2 | 24           | 0     |
+| Word3 | 21           | 512   |
+| ...   | ...          | ...   |
 
 When using a new package it is always useful to check the [documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#) when in need.
 
