@@ -152,6 +152,9 @@ virtual environments (step by step guide)
 
 **Location**: 1441 - 012, Aud 1
 
+**NOTE:** As we decided in class 5 we will continue the exericses from there and probably not have the time to go into GitHub in this class. You therefore don't need to read for the class (unless you didn't read for class 5), however please take a look at the exercises before class such that you get the most out of class.
+
+
 **Before class**:
 - Read [Introduction to Git](https://github.com/CHCAA-EDUX/scientific-computing-01/blob/main/readings/introduction-to-git.md)
 - Create a [GitHub user](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwig2fnl_JL2AhUNPuwKHSCRAlsQFnoECAcQAQ&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk)
