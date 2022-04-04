@@ -162,6 +162,7 @@ virtual environments (step by step guide)
 
 **Optional before class**: [Install git](https://docs.github.com/en/get-started/quickstart/set-up-git) on your local laptop
 
+**Evaluation of workshop** Please fill out [this questionnaire](https://docs.google.com/forms/d/e/1FAIpQLScljPIBYc5brwhbgQz8i39KraiKqNtCLNil8ExAia3qY91wfQ/viewform)
 
 #### Content of the class
 
